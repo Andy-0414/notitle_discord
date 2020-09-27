@@ -3,6 +3,8 @@ import { NOTITLE } from "./data/NOTITLE";
 import fs from "fs";
 import Command from "./interface/Command";
 
+import "dotenv/config";
+
 // 봇 연결
 const client = new Discord.Client();
 client.login(process.env.TOKEN);
