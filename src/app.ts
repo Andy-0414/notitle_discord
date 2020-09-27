@@ -5,7 +5,7 @@ import Command from "./interface/Command";
 
 // 봇 연결
 const client = new Discord.Client();
-client.login("NzU5NjU0MTE4MTU0NDM2NjI4.X3ApBw.27bQ-DdfYKd6uy9IgdomaY14EqQ");
+client.login(process.env.TOKEN);
 
 // 명령어 사전 등록
 export const commands = new Discord.Collection();
