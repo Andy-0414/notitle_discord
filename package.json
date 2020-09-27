@@ -1,0 +1,27 @@
+{
+	"name": "notitle_discord_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "ts-node ./src/app.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/axios": "^0.14.0",
+		"axios": "^0.20.0",
+		"clipboardy": "^2.3.0",
+		"csvtojson": "^2.0.10",
+		"discord.js": "^12.3.1",
+		"selenium-webdriver": "^4.0.0-alpha.7",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.6"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.20",
+		"@types/selenium-webdriver": "^4.0.9"
+	}
+}
